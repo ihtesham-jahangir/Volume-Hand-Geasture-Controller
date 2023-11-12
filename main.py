@@ -1,4 +1,3 @@
-from gettext import npgettext
 import cv2
 import mediapipe as mp
 import math
