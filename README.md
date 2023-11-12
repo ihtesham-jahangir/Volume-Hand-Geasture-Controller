@@ -29,17 +29,17 @@ Connect a webcam to your computer.
 Clone this repository to your local machine:
 
 bash
-git clone https://github.com/your-username/hand-gesture-volume-control.git
+git clone https://github.com/ihtesham-jahangir/Volume-Hand-Geasture-Controller
 
 Navigate to the project directory:
 bash
 
-cd hand-gesture-volume-control
+cd [Your Project Name]
 
 Run the Python script:
 bash
 
-python volume_control.py
+python main.py
 
 A window will open displaying the webcam feed with hand landmarks. Make the following hand gesture to control the volume:
 
@@ -51,7 +51,6 @@ Customization
 You can customize the gesture recognition logic by modifying the code in the volume_control.py script. For example, you can adjust the distance thresholds for volume control by changing the values in the np.interp() function.
 
 python
-Copy code
 # Convert the distance to a volume level
 vol = np.interp(distance, [0.0, 0.6], [minVol, maxVol])  # Adjust the values based on your distance range
 License
@@ -67,4 +66,4 @@ Feel free to contribute to this project or use it as a basis for your own hand g
 
 Happy coding!
 
-Replace "your-username" with your GitHub username in the README file. You can also update the author section at the bottom of the README file.
+Replace "ihtesham-jahangir" with your GitHub username in the README file. You can also update the author section at the bottom of the README file.
